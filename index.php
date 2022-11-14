@@ -14,7 +14,9 @@
 </head>
 <body>
     <div class=" cover">
-
+        <div>
+            test
+        </div>
     </div>
     <nav></nav>
 </body>
