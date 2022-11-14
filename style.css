@@ -1,0 +1,33 @@
+body{
+    margin: 0 auto;
+    padding:0 auto;
+    font-family: 'Martel', serif;
+    background: #FFFFFF;
+}
+.background{
+    position: absolute;
+    height: 752px;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.cover{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    background: url('images/cover.png');
+
+}
+.filter{
+    position: absolute;
+    visibility: hidden;
+    width: 1440px;
+    height: 793px;
+    left: 0px;
+    right: 0px;
+
+    background: rgba(0, 0, 0, 0.5);
+}
