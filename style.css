@@ -2,7 +2,7 @@ body{
     margin: 0 auto;
     padding:0 auto;
     font-family: 'Martel', serif;
-    background: #FFFFFF;
+    
 }
 .background{
     position: absolute;
@@ -11,13 +11,22 @@ body{
     right: 0;
     top: 0;
 }
+.Header{
+    position: absolute;
+    height: 866px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+    background: #FAFAFA;
+}
 .cover{
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-
+    background-repeat: no-repeat;
     background: url('images/cover.png');
 
 }
@@ -30,4 +39,31 @@ body{
     right: 0px;
 
     background: rgba(0, 0, 0, 0.5);
+}
+.navbar-style-1 .navbar-light{
+    position: absolute;
+    width: 1322px;
+    height: 104px;
+    left: calc(50% - 1322px/2);
+    top: 0px;
+}
+.collapse .navbar-collapse{
+    position: absolute;
+    width: 280px;
+    height: 24px;
+    left: calc(50% - 280px/2 - 162px);
+    top: 40px;
+}
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 21px;
+
+    position: absolute;
+    width: 280px;
+    height: 24px;
+    left: calc(50% - 280px/2);
+    top: calc(50% - 24px/2);
 }
