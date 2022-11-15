@@ -10,14 +10,35 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class=" cover">
-        <div>
-            test
+    <div class="Header-8">
+        <div class="backgroung">
+            <div class="navbar-style-1">
+                <div class="navbar-brand">
+                    <h3>Prosrcurse</h3>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <div class="navbar-nav">
+                        <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Product</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                    </div>
+                    
+                </div>
+                <div class="navbar-toggler">
+                    <div class="navbar-toggler-icon">
+                        <img src="images/icn menu .icn-xs.png" alt="">
+                    </div>
+                </div>
+                
+            </div>
         </div>
     </div>
-    <nav></nav>
+    
 </body>
 </html>
