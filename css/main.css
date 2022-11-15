@@ -93,6 +93,88 @@ h1{
     
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 }
+.card-1 h3, .card-2 h3 {
+    
+
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: 0.1px;
+
+    /* text-color */
+
+    color: #252B42;
+}
+.card-1 p, .card-2 p {
+    width: 199px;
+    height: 40px;
+
+    /* paragraph */
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    letter-spacing: 0.2px;
+
+    /* second-text-color */
+
+    color: #737373;
+
+}
+.card-3 h3 {
+    
+
+    /* h3 */
+
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: 0.1px;
+
+    /* light-text-color */
+
+    color: #FFFFFF;
+}
+.card-3 p {
+    width: 196px;
+    height: 40px;
+
+    /* paragraph */
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    letter-spacing: 0.2px;
+
+    /* light-text-color */
+
+    color: #FFFFFF;
+}
+.col-md-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    width: 25%px;
+    height: 202px;
+}
 .col-md-4 {
     display: flex;
     flex-direction: column;
@@ -292,4 +374,140 @@ top: 40px;
 
     color: #252B42;
 
+}
+
+.features-1 {
+    position: absolute;
+    width: 1440px;
+    height: 526px;
+
+    left: 0px;
+    right: 0px;
+    top: 866px;
+    background: #fafafa;
+    /* border: red solid 1px; */
+    margin: 0 auto;
+
+
+}
+.row-1-features-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    width: 864px;
+    height: 100px;
+}
+.row-2-features-1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    width: 1049px;
+    height: 202px;
+
+
+}
+.features-1 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+    
+
+    position: absolute;
+    width: 1050px;
+    height: 512px;
+    left: calc(50% - 1050px/2);
+    top: 0px;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 864px;
+    height: 100px;
+    /* border: red solid 1px; */
+}
+.main-content h2 {
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    /* identical to box height, or 125% */
+
+    letter-spacing: 0.2px;
+
+    /* text-color */
+
+    color: #252B42;
+}
+.main-content p {
+    width: 468px;
+    height: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* second-text-color */
+
+    color: #737373;
+
+}
+.card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 40px;
+    gap: 10px;
+
+    width: 230px;
+    height: 202px;
+
+    background: #FFFFFF;
+}
+.card-item h2 {
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    /* identical to box height, or 125% */
+
+    letter-spacing: 0.2px;
+
+    /* text-color */
+
+    color: #252B42;
+}
+.card-item h5 {
+
+    width: 170px;
+    height: 24px;
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: 0.1px;
+
+    /* second-text-color */
+
+    color: #737373;
 }
