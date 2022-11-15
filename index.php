@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 <body>
+<<<<<<< HEAD
     <div class="Header-8">
         <div class="backgroung">
             <div class="navbar-style-1">
@@ -38,6 +39,12 @@
                 
             </div>
         </div>
+=======
+    <div class=" cover">
+        <nav class="">
+            
+        </nav>
+>>>>>>> b2e287a3103eb1a7473929ec51df0c69a0bc5d22
     </div>
     
 </body>

@@ -1,7 +1,12 @@
 body{
     margin: 0 auto ;
     padding:0 auto;
+<<<<<<< HEAD
     background: #FFFFFF;
+=======
+    font-family: 'Martel', serif;
+    
+>>>>>>> b2e287a3103eb1a7473929ec51df0c69a0bc5d22
 }
 h3{
     /* h3 */
@@ -121,6 +126,15 @@ a{
     right: 0;
     top: 0;
 }
+.Header{
+    position: absolute;
+    height: 866px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+    background: #FAFAFA;
+}
 .cover{
     position: absolute;
     left: 0;
@@ -140,4 +154,31 @@ a{
     right: 0px;
 
     background: rgba(0, 0, 0, 0.5);
+}
+.navbar-style-1 .navbar-light{
+    position: absolute;
+    width: 1322px;
+    height: 104px;
+    left: calc(50% - 1322px/2);
+    top: 0px;
+}
+.collapse .navbar-collapse{
+    position: absolute;
+    width: 280px;
+    height: 24px;
+    left: calc(50% - 280px/2 - 162px);
+    top: 40px;
+}
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 21px;
+
+    position: absolute;
+    width: 280px;
+    height: 24px;
+    left: calc(50% - 280px/2);
+    top: calc(50% - 24px/2);
 }
