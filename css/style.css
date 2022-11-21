@@ -733,9 +733,9 @@ div.card-item-blue > p{
         line-height: 50px;
         letter-spacing: 0.2px;
         color: #252B42;
-        
+        width: 241px;
         margin-top: 84px;
-        padding: 0 87.5px;
+        /* padding: 0 87.5px; */
         margin: 0 auto;
         text-align: center;
 
@@ -751,11 +751,11 @@ div.card-item-blue > p{
     }
     .header .card-header-btn {
         display: flex; 
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 25px;
-        margin-left: 117px;
-        margin-right: 117px;
+        
         
     }
     .main-content > p {
@@ -766,15 +766,26 @@ div.card-item-blue > p{
         grid-template-columns: repeat(1,230px);
         gap: 40px;
     }
+    .every-client-matters .row .main-content h2 {
+        width: 259px;
+        
+    }
+    .every-client-matters .row .main-content p {
+        width: 206px;
+        margin: 0 auto;
+    }
     .practice-advice {
         margin-bottom: 0;
     }
     .container .sub-container {
         margin: 45px 43px;
     }
+    .sub-container > .row > h2 {
+        width: 174px;
+        text-align: center;
+    }
     .sub-container > .row > p {
         width: 206px;
-
     }
     .about .row:last-child {
         justify-content: space-between;
@@ -789,6 +800,7 @@ div.card-item-blue > p{
     }
     .about .row > .main-content h2 {
         margin: 0 36.5px;
+        width: 251px;
         margin-bottom: 10px;
     }
     .about .row > .main-content p {
@@ -826,6 +838,12 @@ div.card-item-blue > p{
         width: 253px;
         margin: 0 auto;
         
+    }
+    .contect .container .row:first-child h2 {
+        width: 258px;
+    }
+    .contect .container .row:first-child p {
+        width: 264px;
     }
     .contect .container .row:last-child {
         grid-template-columns: repeat(1,auto);

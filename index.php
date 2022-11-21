@@ -5,47 +5,518 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<<<<<<< HEAD
-    <div class="Header-8">
-        <div class="backgroung">
-            <div class="navbar-style-1">
-                <div class="navbar-brand">
-                    <h3>Prosrcurse</h3>
-                </div>
-                <div class="collapse navbar-collapse">
-                    <div class="navbar-nav">
-                        <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Product</a></li>
-                        <li><a href="">Pricing</a></li>
-                        <li><a href="">Contact</a></li>
-                    </ul>
+    <!-- Header -->
+    <div class="header col-md-12">
+        <div class="cover-header">
+                <div class="navbar">
+                    <div class="nav-brand">
+                        <h3>Prosecurse</h3>
                     </div>
-                    
-                </div>
-                <div class="navbar-toggler">
-                    <div class="navbar-toggler-icon">
-                        <img src="images/icn menu .icn-xs.png" alt="">
+                    <div class="nav-menu">                    
+                            <a>Home</a>
+                            <a>Product</a>
+                            <a>Pricing</a>
+                            <a>Contact</a>                    
                     </div>
+                    <div class="nav-icon">
+                        <img src="images/icn search .icn-xs.png" class="show-detail" alt="">
+                        <img src="images/icn shopping-cart .icn-xs.png" class="show-detail" alt="">
+                        <img src="images/icn menu .icn-xs.png" alt="">                    
+                    </div>                 
                 </div>
+                <div class="container">
+                        <div class="card-haeder-info">
+                            <h1>
+                                LEGAL PRO SERVICES
+                            </h1>                    
+                            <h4 class="hide">
+                                We know how large object will act,<br>
+                                but things on a small scale.
+                            </h4> 
+                            <h4 class=" show-detail">
+                                We know how large <br>
+                                objects will act, but things <br>
+                                on a small scale just do <br>
+                                not act that way.
+                            </h4>
+                            
+                            <div class="card-header-btn">
+                                <button class="btn primary-color btn-text btn-round">
+                                    Get Quote Now 
+                                </button>
+                                <button class="btn outline-primary-color btn-text btn-round">
+                                    Learn More 
+                                </button>
+                            </div> 
+                        </div> 
+                </div> 
+                <div class="row">
+                    <div class="card-item-white">
+                        <img src="images/c1.png" alt="">
+                        <h3>
+                            Family Law
+                        </h3>
+                        <p>
+                            We focus on ergonomics and meeting you where you work. 
+                        </p>
+
+                    </div>
+                    <div class="card-item-white">
+                        <img src="images/c2.png" alt="">
+                        <h3>
+                            Business Law
+                        </h3>
+                        <p>
+                            Just type what's on your mind and we'll get you there. 
+                        </p>
+                    </div>
+                    <div class="card-item-blue">
+                        <img src="images/c3.png" alt="">
+                        <h3>
+                            Trust & Estates
+                        </h3>
+                        <p>
+                            the quick fox jumps over the lazy dog 
+                        </p>
+                    </div>
+            </div>
+        </div>      
+                  
+    </div>
+
+<!-- Every Client Matters -->
+    <div class="every-client-matters col-md-12">
+        <div class="container">
+            <div class="row">
+                <div class=" main-content ">
+                    <h2>
+                        Every Client Matters
+                    </h2>
+                    <p align="center">
+                        Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics 
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                        <img src="images/icn settings .icn-lg.png" alt="">
+                        <h2>
+                            1700+
+                        </h2>
+                        <h5>
+                            TRUSTED CLIENTS
+                        </h5>
+                </div>
+                <div class="col-md-3 ">
+                        <img src="images/icn settings .icn-lg (1).png" alt="">
+                        <h2>
+                            $180 M 
+                        </h2>
+                        <h5>
+                            RECOVERED
+                        </h5>
+                </div>
+                <div class="col-md-3 ">
+                        <img src="images/icn settings .icn-lg (2).png" alt="">
+                        <h2>
+                            98%
+                        </h2>
+                        <h5>
+                            SUCCESSFUL CASES
+                        </h5>
+                </div>
+                <div class="col-md-3 ">
+                        <img src="images/icn settings .icn-lg (3).png" alt="">
+                        <h2>
+                            10,6
+                        </h2>
+                        <h5>
+                            INJURY CASES
+                        </h5>
+                </div>
+                
                 
             </div>
         </div>
-=======
-    <div class=" cover">
-        <nav class="">
-            
-        </nav>
->>>>>>> b2e287a3103eb1a7473929ec51df0c69a0bc5d22
     </div>
-    
+    <!-- Practice Advice -->
+    <div class=" practice-advice col-md-12">
+        <div class="container ">
+            <div class="sub-container ">
+                <div class=" row">
+                    
+                        <h2>
+                            Practice Advice
+                        </h2>
+                        <p>
+                            Problems trying to resolve the conflict between 
+                            the two major realms of Classical physics: Newtonian mechanics 
+                        </p>
+                </div>
+
+            </div>
+            <div class=" row">
+                <div class="col-md-3">
+                    <div class="card-item">
+                        <div class="card-content">
+                            <h5 >
+                                Frauds or Mislead
+                            </h5>
+                            <p >
+                                Newton thought that 
+                                light was made up of 
+                                particles, but then it 
+                                was discovered
+                            </p>
+                        </div>
+                        <div class="card-image">
+                            <img src="images/cover (1).png" alt="">
+                        </div>                      
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-item">
+                        <div class="card-content">
+                            <h5 >
+                                Bailes & Warrants
+                            </h5>
+                            <p >
+                                “Quantum mechanics” is the description of the behaviour of matter 
+                            </p>
+                        </div>
+                        <div class="card-image">
+                            <img src="images/cover (2).png" alt="">
+                        </div>                      
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-item">
+                        <div class="card-content">
+                            <h5 >
+                                Federal Drug Crimes
+                            </h5>
+                            <p >
+                                They describe a universe consisting of bodies moving
+                            </p>
+                        </div>
+                        <div class="card-image">
+                            <img src="images/cover (3).png" alt="">
+                        </div>                      
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-item">
+                        <div class="card-content">
+                            <h5 >
+                                Traffic Related Crimes
+                            </h5>
+                            <p >
+                                They finally obtained a consistent description of the behaviour 
+                            </p>
+                        </div>
+                        <div class="card-image">
+                            <img src="images/cover (4).png" alt="">
+                        </div>                      
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- About -->
+    <div class="about col-md-12 ">
+        <div class="container " >
+            <div class=" row ">
+                <div class="main-content ">
+                    <h2>
+                        Who We Are
+                    </h2>
+                    <p>
+                        Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics 
+                    </p>
+                </div>
+
+            </div>
+            <div class=" row ">
+                <div class="col-md-8 ">
+                    <div class="card-item">
+                        <div class=" card-button blue-color">
+                            <img src="images/icn play .icn-sm.png" alt="">
+                        </div>
+                        <div class="card-image"></div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card-title ">
+                        <h2>
+                            Most trusted in our field
+                        </h2>
+                        <p>
+                            Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.
+                        </p>
+                    </div>
+                    <div class="card-list">
+                        <div class="flex-row">
+                            <div class="icon ">
+                                <img src="images/Vector (14).png" alt="">
+                            </div>
+                            <div class="text">
+                                <h5>
+                                    the quick fox jumps over the lazy dog
+                                </h5>
+                                <h6>
+                                    Things on a very small scale ...
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="flex-row">
+                            <div class="icon ">
+                                <img src="images/Vector (15).png" alt="">
+                            </div>
+                            <div class="text">
+                                <h5>
+                                    the quick fox jumps over the lazy dog
+                                </h5>
+                                <h6>
+                                    Things on a very small scale ...
+                                </h6>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Clients -->
+    <div class="clients col-md-12 ">
+        <div class="clients-backgroung">
+            
+        </div>
+        <div class="container" >
+            <div class="row icon">
+                <div class="col-md-2">
+                    <img src="images/Vector (1).png" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="images/Vector (2).png" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="images/Vector (3).png" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="images/Vector (4).png" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="images/Vector (5).png" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="images/Vector (6).png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container" >
+            <div class="row input">
+                        <div class="title">
+                            <h3>
+                                Subscribe For Latest Newsletter
+                            </h3>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" name="" id="" placeholder="Your Email">
+                            <div class="btn-input">
+                                <button>Subscribe</button>
+                            </div>
+                        </div>
+                </div>       
+        </div>
+        
+    </div>
+
+<!-- Contect -->
+    <div class="contect col-md-12">
+        <div class="container">
+            <div class="row ">
+                <div class="main-content">
+                    <h2>
+                        Get In Touch
+                    </h2>
+                    <p>
+                        Problems trying to resolve <br class=" show-detail"> the conflict between <br class="hide">
+                        the two major realms of Classical physics:<br class=" show-detail"> Newtonian mechanics 
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 ">
+                    <div class="card-item">
+                        <img src="images/tel.png" alt="">
+                        <div>
+                            <h6>georgia.young@example.com</h6>
+                            <h6>georgia.young@ple.com</h6>
+                        </div>
+                        <h5>
+                            Get Support
+                        </h5>
+                        <button>
+                                Submit Request
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card-item">
+                        <img src="images/location.png" alt="">
+                        <div class="text-white-center">
+                            <h6>georgia.young@example.com</h6>
+                            <h6>georgia.young@ple.com</h6>
+                        </div>
+                        <h5>
+                            Get Support
+                        </h5>
+                        <button>
+                                Submit Request
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card-item">
+                        <img src="images/mel.png" alt="">
+                        <div>
+                            <h6>georgia.young@example.com</h6>
+                            <h6>georgia.young@ple.com</h6>
+                        </div>
+                        <h5>
+                            Get Support
+                        </h5>
+                        <button>                            
+                                Submit Request
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer col-md-12">
+        <div class=" footer-1">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-6 title ">
+                        <h3>
+                            Request A Free Consultation
+                        </h3>
+                        <p>
+                            the quick fox jumps over the lazy dog
+                        </p>
+                    </div>
+                    <div class="col-md-6 button ">
+                        <button>
+                            Contact Us
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" footer-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 ">
+                        <h5>
+                            Company Info
+                        </h5>
+                        <div class="footer-link">
+                            <a href="#">About Us</a>
+                            <a href="#">Carrier</a>
+                            <a href="#">We are hiring</a>
+                            <a href="#">Blog</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 ">
+                        <h5>
+                            Legal
+                        </h5>
+                        <div class="footer-link">
+                            <a href="#">About Us</a>
+                            <a href="#">Carrier</a>
+                            <a href="#">We are hiring</a>
+                            <a href="#">Blog</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 ">
+                        <h5>
+                            Features
+                        </h5>
+                        <div class="footer-link">
+                            <a href="#">Business Marketing</a>
+                            <a href="#">User Analytic</a>
+                            <a href="#">Live Chat</a>
+                            <a href="#">Unlimited Support</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 ">
+                        <h5>
+                            Resources
+                        </h5>
+                        <div class="footer-link">
+                            <a href="#">IOS & Android</a>
+                            <a href="#">Watch a Demo</a>
+                            <a href="#">Customer</a>
+                            <a href="#">API</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <h5>
+                            Get In Touch
+                        </h5>
+                        <div class="footer-icon">
+                            <div class="footer-icon-detail">
+                                <img src="images/f-tel.png" alt="">
+                                <h6>
+                                    (480) 555-0103 
+                                </h6>
+                            </div>
+                            <div class="footer-icon-detail">
+                                <img src="images/f-location.png" alt="">
+                                <h6>
+                                    4517 Washington Ave.
+                                </h6>
+                            </div>
+                            <div class="footer-icon-detail">
+                                <img src="images/f-mel.png" alt="">
+                                <h6>
+                                    debra.holt@example.com
+                                </h6>
+                            </div>
+                        </div>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" footer-3">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-6">
+                        <h6>
+                            Made With Love By Figmaland All Right Reserved 
+                        </h6>
+                    </div>
+                    <div class="col-md-6">
+                            <img src="images/fb.png" alt="">
+                            <img src="images/ig.png" alt="">
+                            <img src="images/tw.png" alt="">
+                            <img src="images/yt.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
