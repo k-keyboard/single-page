@@ -56,8 +56,11 @@
                 <div class="row">
                     <div class="card-item-white">
                         <img src="images/c1.png" alt="">
-                        <h3>
+                        <h3 class="hide">
                             Family Law
+                        </h3>
+                        <h3 class=" show-detail">
+                            OpenType features <br> and Variable fonts
                         </h3>
                         <p>
                             We focus on ergonomics and meeting you where you work. 
@@ -66,8 +69,11 @@
                     </div>
                     <div class="card-item-white">
                         <img src="images/c2.png" alt="">
-                        <h3>
+                        <h3 class="hide">
                             Business Law
+                        </h3>
+                        <h3 class=" show-detail">
+                            Fastest way <br> to organize
                         </h3>
                         <p>
                             Just type what's on your mind and we'll get you there. 
@@ -75,8 +81,11 @@
                     </div>
                     <div class="card-item-blue">
                         <img src="images/c3.png" alt="">
-                        <h3>
+                        <h3 class="hide">
                             Trust & Estates
+                        </h3>
+                        <h3 class=" show-detail">
+                            Work at the <br> speed of thought.
                         </h3>
                         <p>
                             the quick fox jumps over the lazy dog 

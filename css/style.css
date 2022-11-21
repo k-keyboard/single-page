@@ -39,10 +39,8 @@ h1{
 .col-md-12 {
     width: 1440px;
     margin: 0 auto;
-
+    transition: all 1s;
     /* border: #0072B5 solid 1px; */
-    
-
 }
 .container {
     position: relative;
@@ -50,11 +48,22 @@ h1{
     flex-direction: column;
     width: 1050px;    
     margin:0 auto;
-
 }
 .row {
     display: grid;
     width: auto;  
+}
+/* Header */
+.header {
+    padding-bottom: 114px;  
+    background: #FAFAFA;
+}
+.header .cover-header {
+    background: url('../images/cover.png');
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: center;
 }
 .header .row {
     position: absolute;
@@ -72,10 +81,14 @@ h1{
 }
 div.card-item-white {
     background-color: #FFFFFF;
+    display: grid;
+    gap: 10px;
 }
 div.card-item-blue {
     background-color: #295C7A;
     color: #FFFFFF;
+    display: grid;
+    gap: 10px;
 }
 div.card-item-blue > p{
     color: #FFFFFF;
@@ -140,20 +153,6 @@ div.card-item-blue > p{
     font-weight: 700;
     font-size: 14px;
     line-height: 28px;
-
-}
-.header {
-    padding-bottom: 114px;  
-    background: #FAFAFA;
-
-
-}
-.header .cover-header {
-    background: url('../images/cover.png');
-    background-repeat: no-repeat;
-    position: relative;
-    background-size: cover;
-    background-position: center;
 
 }
 
@@ -641,12 +640,14 @@ div.card-item-blue > p{
 
 
 /* ******************************************* */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
     .hide{
         display: none;
     }
     .col-md-12 {
         width: 100%;
+        transition: all 1s;
     }
     .header {
         margin-bottom: 0;
@@ -663,6 +664,10 @@ div.card-item-blue > p{
         padding-bottom: 80px;
         gap: 30px;
     }
+    .header .row .card-item-white, .card-item-blue{
+        display: grid;
+        gap: 10px;
+    }
     .header .container {
         margin: 0;
         padding: 0;
@@ -670,8 +675,6 @@ div.card-item-blue > p{
     }
     .every-client-matters .row:nth-last-of-type(1) {
         grid-template-columns: repeat(1,230px);
-
-
     }
     .navbar {
         position: relative;
@@ -881,4 +884,152 @@ div.card-item-blue > p{
         margin: 25px 89px;
         gap: 50px;
     }
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .container{
+        width: 90%;
+    }
+    .col-md-12 {
+        width: 100%;
+        /* border: #0072B5 solid 1px; */
+    }
+    .nav-icon {
+        margin-left: auto;
+        height: 24px;
+        gap: 24px;    
+    }
+    .row {
+        width: auto;
+    }
+    .header .row {
+        position: relative;
+        grid-template-columns: repeat(1,80%);
+        margin: 0 auto;
+        gap: 30px;  
+        padding-bottom: 100px;  
+        justify-content: center;
+    }
+    .header .card-haeder-info {
+        padding: 50px 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .header .cover-header {
+        background: url('../images/cover.png');
+        background-repeat: no-repeat;
+        position: relative;
+        background-size:cover;
+        background-position: center;
+    }
+    .header .card-header-btn {
+        justify-content: center;
+    }
+    .header {
+        padding-bottom: 0;  
+    }
+    .every-client-matters .row:nth-last-of-type(1) {
+        grid-template-columns: repeat(2,230px);
+    }
+    .practice-advice > .container {
+        padding-top: 0px;
+    }
+    .practice-advice .container > .row {
+        margin: 0 auto;
+        grid-template-columns: repeat(2,300px);
+        gap: 40px;
+    }
+    .practice-advice .card-item > .card-image {
+        margin-bottom: -5px;
+    }
+    .practice-advice .card-item > .card-image img{
+        width: 100%;
+    }
+    .about .row:last-child {
+        justify-content: space-between;
+        grid-template-columns: repeat(1,600px);
+        gap: 52px;
+        margin: 0 auto;
+    }
+    .clients > .container > .row.input {
+        grid-template-columns: repeat(1,80%);
+        text-align: center;
+        width: 100%;
+        gap: 30px;
+        margin: 0;
+        justify-content: center;
+    }
+    
+    .clients > .container > .row.icon {
+        justify-content: space-around;
+        align-items: center;
+        grid-template-columns: repeat(3,200px);
+        
+    }
+    .clients > .container > .row.icon .col-md-2{
+        margin: 0 auto;
+    }
+    .contect .container .row:last-child {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 43.5px;
+        gap: 30px;
+        justify-content: center;
+    
+    }
+    .contect .container .row:last-child > .col-md-4:nth-child(2){
+        order: 1;
+        width: 600px;
+    }
+    .contect .container .row:last-child > .col-md-4:nth-child(1){
+        order: 2;
+        width: 45%;
+
+    }
+    .contect .container .row:last-child > .col-md-4:nth-child(3){
+        order: 3;
+        width: 45%;
+
+    }
+    .footer-1 > .container > .row {
+        grid-template-columns: repeat(2,60% 30%);
+        align-items: center;
+        padding: 0px;
+        gap: 10%;
+    }
+    .footer-2 > .container > .row {
+        margin: 50px 0;
+        grid-template-columns: 20% auto auto auto ;
+        gap: 30px;
+        color: #FFFFFF;
+        padding-bottom: 100px;
+    
+    }
+    .footer-2 > .container > .row .col-md-4:nth-child(5){
+        position: absolute;
+        display: grid;
+        align-items: center;
+        left: 0;
+        right: 0;
+        bottom: 40px;
+        
+    }
+    .footer-2 > .container > .row .col-md-4:nth-child(5) h5{
+        text-align: center;
+    }
+    .footer-2 > .container > .row .col-md-4:nth-child(5) .footer-icon{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        justify-content: center;
+        margin: 0 40px;
+
+    }
+    .footer-3 .row {
+        grid-template-columns: repeat(2, auto);
+        margin: 25px 89px;
+        gap: 50px;
+    }
+
+
 }
