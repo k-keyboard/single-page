@@ -134,19 +134,28 @@ div.card-item-blue > p{
 
 }
 .btn:hover {
-    filter: drop-shadow(0px 3px 3px #784f33);
+    /* filter: drop-shadow(0px 3px 3px #784f33); */
     transition: all .5s;
 }
 .primary-color{
     color: #FFFFFF;
-    background: #784F33;
+    background: #784F33;  
+}
+.primary-color:hover {
+    background: #996441;  
     
+}
+.outline-primary-color:hover{
+    background-color: #bdbdbd;
+    color: darkslategray;
+    border: 1px solid #bdbdbd;  
+
     
 }
 .outline-primary-color {
     border: 1px solid #784F33;
     color: #784F33;  
- 
+    background-color: #f3f3f3;
 }
 .blue-color{
     background: #295C7A;
@@ -329,15 +338,24 @@ div.card-item-blue > p{
     color: #737373;
 }
 .practice-advice .col-md-3 > .card-image {
-    margin-bottom: -5px;
+    margin-bottom: -5%;
+    background-color: transparent;
+    /* border: #0072B5 solid 2px; */
+    
+}
+.practice-advice .card-image > img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+
 }
 .practice-advice .col-md-3 {
     filter: grayscale(80%);
     transition: all 1s;
-
 }
-.practice-advice .col-md-3:hover {
+.practice-advice .col-md-3:hover{
     filter: grayscale(0%);
+    box-shadow: 0px 0px 10px lightblue;
     transition: all 1s;
 
 }
@@ -673,6 +691,10 @@ div.card-item-blue > p{
     line-height: 24px;
     letter-spacing: 0.2px;
 }
+.footer-2 .footer-icon-detail > h6 a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
 .footer-2 > .container > .row h5{
     margin-bottom: 20px;
     font-size: 16px;
@@ -688,6 +710,12 @@ div.card-item-blue > p{
     text-decoration: none;
     line-height: 24px;
     font-size: 14px;
+    cursor: pointer;
+
+}
+.footer-2 .footer-link > a:hover {
+    text-decoration: underline rgba(255, 255, 255, 0.5);
+    
 }
 .footer .footer-3 {
     background-color: #FAFAFA;
