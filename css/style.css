@@ -749,11 +749,12 @@ div.card-item-blue > p{
         position: relative;
         display: flex;
         margin: 0 auto;
-        
         padding: 36px 36px 39px 36px;
         height: 532px;
         justify-content: space-around;
         transition: all 1s;
+        align-items: flex-start;
+
     
     }
     .nav-brand > h3{
