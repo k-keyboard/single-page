@@ -78,6 +78,7 @@ h1{
 .header .row div{
     padding: 35px 40px;    
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    cursor: pointer;
 }
 div.card-item-white {
     background-color: #FFFFFF;
@@ -126,12 +127,10 @@ div.card-item-blue > p{
     flex-direction: column;
     align-items: center;
     padding: 10px 36px;
-    border: none;
+    border: transparent solid 1px;
     border-radius: 37px;
     cursor: pointer;
     transition: all .3s;
-
-
 }
 .btn:hover {
     /* filter: drop-shadow(0px 3px 3px #784f33); */
@@ -147,7 +146,7 @@ div.card-item-blue > p{
 }
 .outline-primary-color:hover{
     background-color: #bdbdbd;
-    color: darkslategray;
+    color: #ffffff;
     border: 1px solid #bdbdbd;  
 
     
@@ -161,15 +160,12 @@ div.card-item-blue > p{
     background: #295C7A;
     border-radius: 73.6px;
 }
-
 .btn-text {  
-
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 28px;
-
 }
 .navbar {
     display: flex;
@@ -261,7 +257,6 @@ div.card-item-blue > p{
     margin-top: 50px;
     gap: 40px;
 }
-
 .every-client-matters .row > div.col-md-3 {
     display: flex;
     flex-direction: column;
@@ -269,6 +264,7 @@ div.card-item-blue > p{
     padding: 30px 40px;
     background: #FFFFFF;
     gap: 10px;
+    cursor: pointer;
     transition: all 1s;
 
 }
@@ -318,11 +314,14 @@ div.card-item-blue > p{
     grid-template-columns: repeat(4,230px);
     gap: 40px;
 }
+.practice-advice .col-md-3 {
+    cursor: pointer;
+    transition: all 1s;
 
+}
 .practice-advice .col-md-3 > .card-content {
     padding: 30px 30px;
     background: #FFFFFF;
-
 }
 .practice-advice .col-md-3 > .card-content > h5{
     font-size: 16px;
@@ -349,14 +348,18 @@ div.card-item-blue > p{
     height: auto;
 
 }
-.practice-advice .col-md-3 {
+.practice-advice .col-md-3 img{
     filter: grayscale(80%);
     transition: all 1s;
 }
-.practice-advice .col-md-3:hover{
+.practice-advice .col-md-3:hover img{
     filter: grayscale(0%);
-    box-shadow: 0px 0px 10px lightblue;
     transition: all 1s;
+}
+.practice-advice .col-md-3:hover {
+    box-shadow: 0px 0px 15px lightblue;
+    transition: all 1s;
+
 
 }
 
@@ -1062,10 +1065,13 @@ div.card-item-blue > p{
         justify-content: space-around;
         align-items: center;
         grid-template-columns: repeat(3,200px);
-        
     }
     .clients > .container > .row.icon .col-md-2{
         margin: 0 auto;
+    }
+    .clients-backgroung {
+        height: 100px;
+        bottom: -30px;
     }
     .contect .container .row:last-child {
         display: flex;
