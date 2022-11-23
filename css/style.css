@@ -37,7 +37,8 @@ h1{
 }
 
 .col-md-12 {
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     margin: 0 auto;
     transition: all 1s;
     /* border: #0072B5 solid 1px; */
@@ -46,7 +47,7 @@ h1{
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 1050px;    
+    max-width: 1050px;    
     margin:0 auto;
 }
 .row {
@@ -169,10 +170,13 @@ div.card-item-blue > p{
 }
 .navbar {
     display: flex;
-    margin: 0 90px 0 90px;
+    margin: 0 59px;
     padding: 30px 0 30px 0;
     align-items: center;
 
+}
+.nav-brand {
+    padding-left: 136px;
 }
 .nav-brand > h3{
     font-weight: 700;
@@ -180,8 +184,7 @@ div.card-item-blue > p{
     line-height: 32px;
     letter-spacing: 0.1px;
     color: #252B42;
-
-
+    padding: 13px 0;
 }
 .nav-menu {
     display: flex;
@@ -224,6 +227,7 @@ div.card-item-blue > p{
     position: relative;
     background: #FAFAFA;
 }
+
 .every-client-matters .container {
     padding: 80px 93px 94px 93px;
     align-items: center;
@@ -253,7 +257,7 @@ div.card-item-blue > p{
 .every-client-matters .row:nth-last-of-type(1) {
     /* background-color: aqua; */
     grid-template-columns: repeat(4,230px);
-    grid-template-rows: 202px;
+    grid-template-rows: auto;
     margin-top: 50px;
     gap: 40px;
 }
@@ -261,11 +265,24 @@ div.card-item-blue > p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 40px;
+    padding: 30px 32px;
     background: #FFFFFF;
     gap: 10px;
     cursor: pointer;
     transition: all 1s;
+
+}
+.every-client-matters .row > div.col-md-3 h2{
+    line-height: 50px;
+    font-size: 40px;
+
+}
+.every-client-matters .row > div.col-md-3 h5 {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #737373;
 
 }
 .every-client-matters .row > div.col-md-3:hover {
@@ -290,23 +307,25 @@ div.card-item-blue > p{
     align-items: center;
 
 }
-.sub-container > .row {
+/* .sub-container > .row {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 .sub-container > .row > h2 {
     font-size: 40px;
     line-height: 50px;
     letter-spacing: 0.2px;
     margin-bottom: 10px;
+    text-align: center;
 }
 .sub-container > .row > p {
     font-size: 14px;
     line-height: 20px;
     text-align: center;
     width: 431px;
+    margin: 0 auto;
     letter-spacing: 0.2px;
 }
 .practice-advice .container > .row {
@@ -487,52 +506,53 @@ div.card-item-blue > p{
 }
 .clients .container {    
     position: relative;
+    flex-direction: row;
 }
-.clients > .container > .row.icon {
+.clients > .container.row.icon {
     justify-content: space-between;
     align-items: center;
     grid-template-columns: repeat(6,auto);
     gap: 40px;
-    margin: 50px 0;
+    padding: 50px 0;
 }
-.clients > .container > .row.icon img{
+.clients > .container.row.icon img{
     transform: scale(1);
     transition: all 1s;
 }
-.clients > .container > .row.icon img:hover{
+.clients > .container.row.icon img:hover{
     transform: scale(1.5);
     transition: all 1s;
 }
 
 
-.clients > .container > .row.input {
+.clients > .container.row.input {
     padding: 30px 50px;
-    margin: 20px 32px;
     background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%);
     border-radius: 2px;    
-    grid-template-columns: repeat(2,253px 450px);
+    grid-template-columns: 253px 450px;
+    justify-content: space-between;
     gap: 180px;
     z-index: 999;
 }
-.clients > .container > .row.input > .title > h3{
+.clients > .container.row.input > .title > h3{
     font-size: 24px;
     line-height: 32px;
     letter-spacing: 0.1px;
     color: #FFFFFF;
 }
 
-.clients > .container > .row.input > .input-group {
+.clients > .container.row.input > .input-group {
     display: flex;
     position: relative;
 }
-.clients > .container > .row.input > .input-group > input[type=email]{
+.clients > .container.row.input > .input-group > input[type=email]{
     background: #F9F9F9;
     border: 1px solid #E6E6E6;
     padding: 15px 20px;
     border-radius: 5px;
     width: 100%;
 }
-.clients > .container > .row.input > .input-group > .btn-input > button{
+.clients > .container.row.input > .input-group > button{
     position: absolute;
     padding: 15px 22.5px;
     height: 100%;
@@ -546,7 +566,7 @@ div.card-item-blue > p{
     transition: all 1s;
 
 }
-.clients > .container > .row.input > .input-group > .btn-input > button:hover{
+.clients > .container.row.input > .input-group > .btn-input > button:hover{
     background: #ecb74d;
     transition: all 1.5s;
 }
@@ -555,7 +575,7 @@ div.card-item-blue > p{
     height: 77px;
     width: 100%;
     background: #252B42;
-    margin-bottom: 0;
+    margin-bottom: -20px;
     z-index: 20;
     bottom: 0;
 }
@@ -598,7 +618,7 @@ div.card-item-blue > p{
 .text-white-center > h6 {
     color: #FFFFFF;
 }
-.contect .container .row:last-child > .col-md-4 > .card-item{
+.contect .container .row:last-child > .col-md-4 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -626,14 +646,14 @@ div.card-item-blue > p{
 }
 
 /* Footer */
-.footer .footer-1 {
+.footer-1 {
     background-color: #ffffff;
 }
 .footer-1 > .container {
     padding: 40px 0;
 }
 .footer-1 > .container > .row {
-    grid-template-columns: repeat(2,454px 236px);
+    grid-template-columns: 454px 236px;
     align-items: center;
     padding: 0px;
     gap: 360px;
@@ -668,12 +688,12 @@ div.card-item-blue > p{
     background: #63412a;
     transition: all 1s;
 }
-.footer .footer-2{
+.footer-2{
     background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%);
 }
 .footer-2 > .container > .row {
     margin: 50px 0;
-    grid-template-columns: repeat(5,148px 152px 148px 152px 321px);
+    grid-template-columns: 148px 152px 148px 152px 321px;
     gap: 30px;
     color: #FFFFFF;
 
@@ -728,11 +748,11 @@ div.card-item-blue > p{
     transition: all 1s;
     
 }
-.footer .footer-3 {
+.footer-3 {
     background-color: #FAFAFA;
 }
 .footer-3 .row {
-    grid-template-columns: repeat(2, 600px 236px);
+    grid-template-columns: 600px 236px;
     margin: 25px 0;
     gap: 213px;
 }
@@ -745,11 +765,8 @@ div.card-item-blue > p{
 .footer-3 .col-md-6 img{
     cursor: pointer;
 }
-
-
 /* ******************************************* */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-
+@media only screen and (min-device-width : 300px) and (max-device-width : 787px) {
     .hide{
         display: none;
     }
@@ -793,8 +810,6 @@ div.card-item-blue > p{
         justify-content: space-around;
         transition: all 1s;
         align-items: flex-start;
-
-    
     }
     .nav-brand > h3{
         font-weight: 700;
@@ -812,8 +827,6 @@ div.card-item-blue > p{
         width: 112px;
         height: 270px;
         margin: 96px 0 98px 0;
-
-           
     }
     .nav-menu a {    
         font-weight: 600;
@@ -822,13 +835,12 @@ div.card-item-blue > p{
         text-align: center;
         letter-spacing: 0.2px;
         color: #737373;
-    
     }
     .nav-icon {
         margin-left: auto;
         height: 24px;
         gap: 24px;
-    
+        padding: 28px 0;
     }
     .show-detail {    
         display: block;
@@ -867,8 +879,6 @@ div.card-item-blue > p{
         justify-content: center;
         align-items: center;
         gap: 25px;
-        
-        
     }
     .main-content > p {
         width: auto;
@@ -893,8 +903,8 @@ div.card-item-blue > p{
         margin: 45px 43px;
     }
     .sub-container > .row > h2 {
-        width: 174px;
-        text-align: center;
+        /* text-align: center; */
+        margin: 0 78px;
     }
     .sub-container > .row > p {
         width: 206px;
@@ -922,7 +932,7 @@ div.card-item-blue > p{
     .about .container {
         margin-bottom: 135px;
     }
-    .clients > .container > .row.icon {
+    .clients > .container.row.icon {
         justify-content: center;
         align-items: center;
         grid-template-columns: repeat(1,auto);
@@ -932,10 +942,10 @@ div.card-item-blue > p{
         margin-bottom: 35px;
         margin-top: 31px;
     }
-    .clients > .container > .row.icon .col-md-2{
+    .clients > .container.row.icon .col-md-2{
         margin: 0 auto;
     }
-    .clients > .container > .row.input {
+    .clients > .container.row.input {
         grid-template-columns: repeat(1,auto);
         text-align: center;
         width: 100%;
@@ -946,7 +956,7 @@ div.card-item-blue > p{
         display: none;
     }
     
-    .clients > .container > .row.input > .title > h3{
+    .clients > .container.row.input > .title > h3{
         width: 253px;
         margin: 0 auto;
         
@@ -990,12 +1000,18 @@ div.card-item-blue > p{
     }
     .footer-3 .row {
         grid-template-columns: repeat(1, auto);
-        margin: 25px 89px;
+        margin: 25px 91.5px;
         gap: 50px;
+    }
+   
+}
+@media only screen and (max-device-width : 1439px){
+    .nav-brand {
+        padding-left: 5%;
     }
 }
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width : 788px) and (max-device-width : 1200px) {
     .container{
         width: 90%;
     }
@@ -1060,26 +1076,26 @@ div.card-item-blue > p{
         gap: 52px;
         margin: 0 auto;
     }
-    .clients > .container > .row.input {
+    .clients > .container.row.input {
         grid-template-columns: repeat(1,80%);
         text-align: center;
-        width: 100%;
+        width: 80%;
         gap: 30px;
-        margin: 0;
+        margin: 0 auto;
         justify-content: center;
     }
     
-    .clients > .container > .row.icon {
+    .clients > .container.row.icon {
         justify-content: space-around;
         align-items: center;
         grid-template-columns: repeat(3,200px);
     }
-    .clients > .container > .row.icon .col-md-2{
+    .clients > .container.row.icon .col-md-2{
         margin: 0 auto;
     }
     .clients-backgroung {
         height: 100px;
-        bottom: -30px;
+        bottom: -20px;
     }
     .contect .container .row:last-child {
         display: flex;
