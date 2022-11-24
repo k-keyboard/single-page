@@ -54,6 +54,26 @@ h1{
     display: grid;
     width: auto;  
 }
+.main-content > h2 {
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;   
+    color: #252B42;
+    /*  */
+    text-align: center;
+
+}
+.main-content > p {
+    width: 468px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin: 0 auto;
+}
+
 /* Header */
 .header {
     padding-bottom: 114px;  
@@ -101,9 +121,6 @@ div.card-item-blue > p{
     width: 50%;
 }
 .header .card-haeder-info h1{
-    font-family: 'Martel';
-    font-style: normal;
-    font-weight: 900;
     font-size: 58px;
     line-height: 65px;
     letter-spacing: 0.2px;
@@ -162,8 +179,6 @@ div.card-item-blue > p{
     border-radius: 73.6px;
 }
 .btn-text {  
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 28px;
@@ -210,7 +225,7 @@ div.card-item-blue > p{
     filter: opacity(.7);
     color: #ffffff;
     padding: 5px 15px;
-    transition: all .5s;
+    transition: all .7s;
 }
 .nav-icon {
     display: flex;
@@ -232,36 +247,19 @@ div.card-item-blue > p{
     padding: 80px 93px 94px 93px;
     align-items: center;
 }
-.every-client-matters .row .main-content h2 {
+.every-client-matters .row:nth-child(1){
+    margin-bottom: 50px;
+}
+.every-client-matters .row:nth-child(1) .main-content h2 {
     margin-bottom: 10px;
 }
-.main-content > h2 {
-    font-size: 40px;
-    line-height: 50px;
-    letter-spacing: 0.2px;   
-    color: #252B42;
-    /*  */
-    text-align: center;
 
-}
-.main-content > p {
-    width: 468px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    color: #737373;
-    /*  */
-}
-.every-client-matters .row:nth-last-of-type(1) {
-    /* background-color: aqua; */
+.every-client-matters .row:nth-child(2) {
     grid-template-columns: repeat(4,230px);
     grid-template-rows: auto;
-    margin-top: 50px;
     gap: 40px;
 }
-.every-client-matters .row > div.col-md-3 {
+.every-client-matters .row:nth-child(2) > div.col-md-3 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -272,12 +270,12 @@ div.card-item-blue > p{
     transition: all 1s;
 
 }
-.every-client-matters .row > div.col-md-3 h2{
+.every-client-matters .row:nth-child(2) > div.col-md-3 h2{
     line-height: 50px;
     font-size: 40px;
 
 }
-.every-client-matters .row > div.col-md-3 h5 {
+.every-client-matters .row:nth-child(2) > div.col-md-3 h5 {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
@@ -285,7 +283,7 @@ div.card-item-blue > p{
     color: #737373;
 
 }
-.every-client-matters .row > div.col-md-3:hover {
+.every-client-matters .row:nth-child(2) > div.col-md-3:hover {
     /* box-shadow: 10px 10px lightblue; */
     border-radius: 15px;
     filter: drop-shadow(0px 3px 10px lightblue);
@@ -300,35 +298,14 @@ div.card-item-blue > p{
 .practice-advice > .container {
     padding-top: 80px;
     padding-bottom: 84px;
-    /* border: #0072B5 solid 1px; */
 }
-.container .sub-container {
+.practice-advice .container .row:nth-child(1) {
     margin: 45px 93px;
-    align-items: center;
-
 }
-/* .sub-container > .row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
-.sub-container > .row > h2 {
-    font-size: 40px;
-    line-height: 50px;
-    letter-spacing: 0.2px;
-    margin-bottom: 10px;
-    text-align: center;
+.practice-advice .row:nth-child(1) .main-content h2 {
+    margin-bottom: 10PX;
 }
-.sub-container > .row > p {
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    width: 431px;
-    margin: 0 auto;
-    letter-spacing: 0.2px;
-}
-.practice-advice .container > .row {
+.practice-advice .container > .row:nth-child(2) {
     justify-content: space-between;
     grid-template-columns: repeat(4,230px);
     gap: 40px;
@@ -358,7 +335,6 @@ div.card-item-blue > p{
 .practice-advice .col-md-3 > .card-image {
     margin-bottom: -5%;
     background-color: transparent;
-    /* border: #0072B5 solid 2px; */
     
 }
 .practice-advice .card-image > img {
@@ -378,8 +354,6 @@ div.card-item-blue > p{
 .practice-advice .col-md-3:hover {
     box-shadow: 0px 0px 15px lightblue;
     transition: all 1s;
-
-
 }
 
 /* About Who We Are */
@@ -390,8 +364,6 @@ div.card-item-blue > p{
 }
 .about .row:first-child {
     margin: 100px 93px ;
-    display: flex;
-    justify-content: center;
 }
 .about .container {
     padding-bottom: 43px;
@@ -399,7 +371,7 @@ div.card-item-blue > p{
 .about .row > .main-content h2{
     margin-bottom: 15px;
 }
-.about .row:last-child {
+.about .row:nth-child(2) {
     justify-content: space-between;
     grid-template-columns: 600px 333px;
     margin-bottom: 100px;
@@ -588,28 +560,29 @@ div.card-item-blue > p{
     padding: 80px 0;
     gap: 80px;
 }
-.contect .container .row:first-child {
+.contect .container .row:nth-child(1) {
     margin: 0 93px;
     justify-content: center;
+
 }
-.contect .container .row:first-child h2{
+.contect .container .row:nth-child(1) h2{
     margin-bottom: 10px;
 }
-.contect .container .row:last-child {
+.contect .container .row:nth-child(2) {
     grid-template-columns: repeat(3,auto);
     margin: 0 32.5px;
     align-items: center;
 }
-.contect .container .row:last-child h5{
+.contect .container .row:nth-child(2) h5{
     font-size: 16px;
 }
 
-.contect .container .row:last-child > .col-md-4:nth-child(1) , .col-md-4:nth-child(3) {
+.contect .container .row:nth-child(2) > .col-md-4:nth-child(1) , .col-md-4:nth-child(3) {
     background: #FFFFFF;
     height: 333px;
     padding: 50px 40px;
 }
-.contect .container .row:last-child > .col-md-4:nth-child(2){
+.contect .container .row:nth-child(2) > .col-md-4:nth-child(2){
     background: #252B42;
     height: 393px;
     padding: 80px 40px;
@@ -618,14 +591,14 @@ div.card-item-blue > p{
 .text-white-center > h6 {
     color: #FFFFFF;
 }
-.contect .container .row:last-child > .col-md-4 {
+.contect .container .row:nth-child(2) > .col-md-4 {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
     text-align: center;
 }
-.contect .row:last-child button {
+.contect .row:nth-child(2) button {
     padding: 10px 20px;
     border: 1px solid #D0A144;
     border-radius: 5px;
@@ -638,7 +611,7 @@ div.card-item-blue > p{
     cursor: pointer;
     transition: all .3s;
 }
-.contect .row:last-child button:hover {
+.contect .row:nth-child(2) button:hover {
     background: #D0A144;
     transition: all .7s;
     border-radius: 100px;
@@ -656,7 +629,7 @@ div.card-item-blue > p{
     grid-template-columns: 454px 236px;
     align-items: center;
     padding: 0px;
-    gap: 360px;
+    justify-content: space-between;
 }
 .footer-1 > .container > .row > .col-md-6.title{
     display: flex;
@@ -754,7 +727,7 @@ div.card-item-blue > p{
 .footer-3 .row {
     grid-template-columns: 600px 236px;
     margin: 25px 0;
-    gap: 213px;
+    justify-content: space-between;
 }
 .footer-3 .col-md-6 {
     display: grid; 
@@ -797,9 +770,6 @@ div.card-item-blue > p{
         margin: 0;
         padding: 0;
 
-    }
-    .every-client-matters .row:nth-last-of-type(1) {
-        grid-template-columns: repeat(1,230px);
     }
     .navbar {
         position: relative;
@@ -883,33 +853,40 @@ div.card-item-blue > p{
     .main-content > p {
         width: auto;
     }
-    .practice-advice .container > .row {
+    .every-client-matters .container {
+        padding-bottom: 160px;
+    }
+    .every-client-matters .row:nth-child(2) {
+        grid-template-columns: repeat(1,230px);
+    }
+    .practice-advice .container > .row:nth-child(2) {
         margin: 0 auto;
         grid-template-columns: repeat(1,230px);
         gap: 40px;
     }
-    .every-client-matters .row .main-content h2 {
+    .every-client-matters .row:nth-child(1) .main-content h2 {
         width: 259px;
         
     }
-    .every-client-matters .row .main-content p {
+    .every-client-matters .row:nth-child(1) .main-content p {
         width: 206px;
-        margin: 0 auto;
     }
-    .practice-advice {
-        margin-bottom: 0;
+    .practice-advice > .container {
+        padding-top: 53px;
     }
-    .container .sub-container {
-        margin: 45px 43px;
+    .practice-advice .container .row:nth-child(1) {
+        margin: 45px;
     }
-    .sub-container > .row > h2 {
-        /* text-align: center; */
+    .practice-advice .container > .row:nth-child(1) h2 {
+        text-align: center;
         margin: 0 78px;
+
     }
-    .sub-container > .row > p {
+    .practice-advice .container > .row:nth-child(1) .main-content p {
         width: 206px;
     }
-    .about .row:last-child {
+
+    .about .row:nth-child(2) {
         justify-content: space-between;
         grid-template-columns: repeat(1,333px);
         gap: 52px;
@@ -917,7 +894,8 @@ div.card-item-blue > p{
     }
     
     .about .row:first-child {
-        margin: 100px 45px;
+        margin: 100px 0;
+        justify-content: center;
 
     }
     .about .row > .main-content h2 {
@@ -947,6 +925,7 @@ div.card-item-blue > p{
     }
     .clients > .container.row.input {
         grid-template-columns: repeat(1,auto);
+        justify-content: center;
         text-align: center;
         width: 100%;
         gap: 30px;
@@ -961,19 +940,25 @@ div.card-item-blue > p{
         margin: 0 auto;
         
     }
+    .contect .container .row .main-content {
+        justify-content: center;
+    }
     .contect .container .row:first-child h2 {
         width: 258px;
     }
     .contect .container .row:first-child p {
         width: 264px;
     }
-    .contect .container .row:last-child {
+    .contect .container .row:nth-child(2) {
         grid-template-columns: repeat(1,auto);
         margin: 0 43.5px;
         gap: 30px;
     
     }
     
+    .footer-1 > .container > .row > .col-md-6.title p{
+        width: 170px;
+    }
     .footer-1 > .container > .row > .col-md-6.button {
         justify-content: flex-start;
     }
@@ -1053,13 +1038,13 @@ div.card-item-blue > p{
     .header {
         padding-bottom: 0;  
     }
-    .every-client-matters .row:nth-last-of-type(1) {
+    .every-client-matters .row:nth-child(2) {
         grid-template-columns: repeat(2,230px);
     }
     .practice-advice > .container {
         padding-top: 0px;
     }
-    .practice-advice .container > .row {
+    .practice-advice .container > .row:nth-child(2) {
         margin: 0 auto;
         grid-template-columns: repeat(2,300px);
         gap: 40px;
@@ -1070,7 +1055,7 @@ div.card-item-blue > p{
     .practice-advice .col-md-3 > .card-image img{
         width: 100%;
     }
-    .about .row:last-child {
+    .about .row:nth-child(2) {
         justify-content: space-between;
         grid-template-columns: repeat(1,600px);
         gap: 52px;
@@ -1097,23 +1082,23 @@ div.card-item-blue > p{
         height: 100px;
         bottom: -20px;
     }
-    .contect .container .row:last-child {
+    .contect .container .row:nth-child(2) {
         display: flex;
         flex-wrap: wrap;
         margin: 0 43.5px;
         gap: 30px;
         justify-content: center;
     }
-    .contect .container .row:last-child > .col-md-4:nth-child(2){
+    .contect .container .row:nth-child(2) > .col-md-4:nth-child(2){
         order: 1;
         width: 600px;
     }
-    .contect .container .row:last-child > .col-md-4:nth-child(1){
+    .contect .container .row:nth-child(2) > .col-md-4:nth-child(1){
         order: 2;
         width: 45%;
 
     }
-    .contect .container .row:last-child > .col-md-4:nth-child(3){
+    .contect .container .row:nth-child(2) > .col-md-4:nth-child(3){
         order: 3;
         width: 45%;
 
@@ -1153,7 +1138,7 @@ div.card-item-blue > p{
 
     }
     .footer-3 .row {
-        grid-template-columns: repeat(2, auto);
+        grid-template-columns: auto;
         margin: 25px 89px;
         gap: 50px;
     }
