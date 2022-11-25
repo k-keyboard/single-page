@@ -41,7 +41,6 @@ h1{
     max-width: 1440px;
     margin: 0 auto;
     transition: all 1s;
-    /* border: #0072B5 solid 1px; */
 }
 .container {
     position: relative;
@@ -59,7 +58,6 @@ h1{
     line-height: 50px;
     letter-spacing: 0.2px;   
     color: #252B42;
-    /*  */
     text-align: center;
 
 }
@@ -151,7 +149,6 @@ div.card-item-blue > p{
     transition: all .3s;
 }
 .btn:hover {
-    /* filter: drop-shadow(0px 3px 3px #784f33); */
     transition: all .5s;
 }
 .primary-color{
@@ -360,7 +357,6 @@ div.card-item-blue > p{
 .about {
     padding-bottom: 43px;
     background: #ffffff;
-    /* border: #0072B5 solid 1px; */
 }
 .about .row:first-child {
     margin: 100px 93px ;
@@ -375,7 +371,6 @@ div.card-item-blue > p{
     justify-content: space-between;
     grid-template-columns: 600px 333px;
     margin-bottom: 100px;
-    /* border: #0072B5 solid 1px; */
 }
 .about .row > .col-md-8 {
     display: flex;
@@ -738,14 +733,11 @@ div.card-item-blue > p{
 .footer-3 .col-md-6 img{
     cursor: pointer;
 }
+
 /* ******************************************* */
 @media only screen and (min-device-width : 300px) and (max-device-width : 787px) {
     .hide{
         display: none;
-    }
-    .col-md-12 {
-        width: 100%;
-        transition: all 1s;
     }
     .header {
         margin-bottom: 0;
@@ -829,7 +821,6 @@ div.card-item-blue > p{
         color: #252B42;
         width: 241px;
         margin-top: 84px;
-        /* padding: 0 87.5px; */
         margin: 0 auto;
         text-align: center;
 
@@ -999,10 +990,6 @@ div.card-item-blue > p{
 @media only screen and (min-device-width : 788px) and (max-device-width : 1200px) {
     .container{
         width: 90%;
-    }
-    .col-md-12 {
-        width: 100%;
-        /* border: #0072B5 solid 1px; */
     }
     .nav-icon {
         margin-left: auto;
